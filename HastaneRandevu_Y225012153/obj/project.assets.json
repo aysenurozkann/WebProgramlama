@@ -2018,11 +2018,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Dersler\\web_programlama\\proje_web_programlama\\AysenurOzkan_Y225012153\\WebProgramlama\\HastaneRandevu_Y225012153\\HastaneRandevu_Y225012153.csproj",
+      "projectUniqueName": "C:\\Dersler\\web_programlama\\proje_web_programlama\\AysenurOzkan_Y225012153\\WebProgramlama\\WebProgramlama\\HastaneRandevu_Y225012153\\HastaneRandevu_Y225012153.csproj",
       "projectName": "HastaneRandevu_Y225012153",
-      "projectPath": "C:\\Dersler\\web_programlama\\proje_web_programlama\\AysenurOzkan_Y225012153\\WebProgramlama\\HastaneRandevu_Y225012153\\HastaneRandevu_Y225012153.csproj",
+      "projectPath": "C:\\Dersler\\web_programlama\\proje_web_programlama\\AysenurOzkan_Y225012153\\WebProgramlama\\WebProgramlama\\HastaneRandevu_Y225012153\\HastaneRandevu_Y225012153.csproj",
       "packagesPath": "C:\\Users\\Aysenur\\.nuget\\packages\\",
-      "outputPath": "C:\\Dersler\\web_programlama\\proje_web_programlama\\AysenurOzkan_Y225012153\\WebProgramlama\\HastaneRandevu_Y225012153\\obj\\",
+      "outputPath": "C:\\Dersler\\web_programlama\\proje_web_programlama\\AysenurOzkan_Y225012153\\WebProgramlama\\WebProgramlama\\HastaneRandevu_Y225012153\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Aysenur\\AppData\\Roaming\\NuGet\\NuGet.Config",

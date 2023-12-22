@@ -22,31 +22,130 @@ namespace HastaneRandevu_Y225012153.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
-            modelBuilder.Entity("HastaneRandevu_Y225012153.Models.Domain.Doktor", b =>
+            modelBuilder.Entity("HastaneRandevu_Y225012153.Models.Domain.AnabilimDali", b =>
                 {
-                    b.Property<int>("DoktorId")
+                    b.Property<int>("AnabilimDaliID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("DoktorId"), 1L, 1);
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("AnabilimDaliID"), 1L, 1);
 
-                    b.Property<string>("DoktorAdi")
-                        .IsRequired()
+                    b.Property<string>("AnabilimDaliAdi")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("DoktorBransId")
+                    b.HasKey("AnabilimDaliID");
+
+                    b.ToTable("AnabilimDallari");
+                });
+
+            modelBuilder.Entity("HastaneRandevu_Y225012153.Models.Domain.CalismaSaati", b =>
+                {
+                    b.Property<int>("CalismaSaatiID")
+                        .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    b.Property<string>("DoktorKlinik")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CalismaSaatiID"), 1L, 1);
 
-                    b.Property<DateTime>("DoktorTarih")
+                    b.Property<DateTime?>("CalismaGunu")
                         .HasColumnType("datetime2");
 
-                    b.HasKey("DoktorId");
+                    b.Property<int>("DoktorID")
+                        .HasColumnType("int");
+
+                    b.HasKey("CalismaSaatiID");
+
+                    b.HasIndex("DoktorID");
+
+                    b.ToTable("CalismaSaatleri");
+                });
+
+            modelBuilder.Entity("HastaneRandevu_Y225012153.Models.Domain.Doktor", b =>
+                {
+                    b.Property<int>("DoktorID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("DoktorID"), 1L, 1);
+
+                    b.Property<int>("AnabilimDaliID")
+                        .HasColumnType("int");
+
+                    b.Property<string>("DoktorAdi")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("DoktorSoyad")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("DoktorID");
+
+                    b.HasIndex("AnabilimDaliID");
 
                     b.ToTable("Doktorlar");
+                });
+
+            modelBuilder.Entity("HastaneRandevu_Y225012153.Models.Domain.Randevu", b =>
+                {
+                    b.Property<int>("RandevuID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("RandevuID"), 1L, 1);
+
+                    b.Property<int>("DoktorID")
+                        .HasColumnType("int");
+
+                    b.Property<string>("HastaAdi")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("HastaSoyadi")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("RandevuTarih")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("RandevuID");
+
+                    b.HasIndex("DoktorID");
+
+                    b.ToTable("Randevular");
+                });
+
+            modelBuilder.Entity("HastaneRandevu_Y225012153.Models.Domain.CalismaSaati", b =>
+                {
+                    b.HasOne("HastaneRandevu_Y225012153.Models.Domain.Doktor", "Doktor")
+                        .WithMany()
+                        .HasForeignKey("DoktorID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Doktor");
+                });
+
+            modelBuilder.Entity("HastaneRandevu_Y225012153.Models.Domain.Doktor", b =>
+                {
+                    b.HasOne("HastaneRandevu_Y225012153.Models.Domain.AnabilimDali", "AnabilimDali")
+                        .WithMany("Doktorlar")
+                        .HasForeignKey("AnabilimDaliID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("AnabilimDali");
+                });
+
+            modelBuilder.Entity("HastaneRandevu_Y225012153.Models.Domain.Randevu", b =>
+                {
+                    b.HasOne("HastaneRandevu_Y225012153.Models.Domain.Doktor", "Doktor")
+                        .WithMany()
+                        .HasForeignKey("DoktorID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Doktor");
+                });
+
+            modelBuilder.Entity("HastaneRandevu_Y225012153.Models.Domain.AnabilimDali", b =>
+                {
+                    b.Navigation("Doktorlar");
                 });
 #pragma warning restore 612, 618
         }

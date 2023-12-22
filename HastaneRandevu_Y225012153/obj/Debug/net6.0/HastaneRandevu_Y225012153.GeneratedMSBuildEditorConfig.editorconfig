@@ -16,8 +16,12 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\WebProgramlama\HastaneRandevu_Y225012153
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Dersler/web_programlama/proje_web_programlama/AysenurOzkan_Y225012153/WebProgramlama/HastaneRandevu_Y225012153/Views/Doktor/DoktorEkle.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9rdG9yXERva3RvckVrbGUuY3NodG1s
+[C:/Dersler/web_programlama/proje_web_programlama/AysenurOzkan_Y225012153/WebProgramlama/HastaneRandevu_Y225012153/Views/Doktor/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9rdG9yXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Dersler/web_programlama/proje_web_programlama/AysenurOzkan_Y225012153/WebProgramlama/HastaneRandevu_Y225012153/Views/Doktor/DoktorListele.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9rdG9yXERva3Rvckxpc3RlbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Dersler/web_programlama/proje_web_programlama/AysenurOzkan_Y225012153/WebProgramlama/HastaneRandevu_Y225012153/Views/Home/Index.cshtml]

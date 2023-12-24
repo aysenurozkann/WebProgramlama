@@ -1,0 +1,303 @@
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\appsettings.json
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\RandevuSistemi.staticwebassets.runtime.json
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\RandevuSistemi.exe
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\RandevuSistemi.deps.json
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\RandevuSistemi.runtimeconfig.json
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\RandevuSistemi.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\RandevuSistemi.pdb
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\en\RandevuSistemi.resources.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\tr\RandevuSistemi.resources.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.csproj.AssemblyReference.cache
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.Resources.Views.Home.GirisYap.en.resources
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.Resources.Views.Home.GirisYap.tr.resources
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.Resources.Views.Home.Index.en.resources
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.Resources.Views.Home.Index.tr.resources
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.Resources.Views.Home.UyeOl.en.resources
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.Resources.Views.Home.UyeOl.tr.resources
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.Resources.Views.Shared._Layout.en.resources
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.Resources.Views.Shared._Layout.tr.resources
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.csproj.GenerateResource.cache
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.AssemblyInfoInputs.cache
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.AssemblyInfo.cs
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.csproj.CoreCompileInputs.cache
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.RazorAssemblyInfo.cache
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.RazorAssemblyInfo.cs
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\en\RandevuSistemi.resources.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\tr\RandevuSistemi.resources.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\staticwebassets\msbuild.RandevuSistemi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\staticwebassets\msbuild.build.RandevuSistemi.props
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.RandevuSistemi.props
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.RandevuSistemi.props
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\scopedcss\Views\Shared\_AdminLayout.cshtml.rz.scp.css
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\scopedcss\bundle\RandevuSistemi.styles.css
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\scopedcss\projectbundle\RandevuSistemi.bundle.scp.css
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.csproj.CopyComplete
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\refint\RandevuSistemi.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.pdb
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.genruntimeconfig.cache
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\ref\RandevuSistemi.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Azure.Identity.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\appsettings.json
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\RandevuSistemi.staticwebassets.runtime.json
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\RandevuSistemi.exe
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\RandevuSistemi.deps.json
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\RandevuSistemi.runtimeconfig.json
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\RandevuSistemi.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\RandevuSistemi.pdb
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\en\RandevuSistemi.resources.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\tr\RandevuSistemi.resources.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Azure.Identity.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.csproj.AssemblyReference.cache
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.Resources.Views.Home.GirisYap.en.resources
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.Resources.Views.Home.GirisYap.tr.resources
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.Resources.Views.Home.Index.en.resources
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.Resources.Views.Home.Index.tr.resources
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.Resources.Views.Home.UyeOl.en.resources
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.Resources.Views.Home.UyeOl.tr.resources
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.Resources.Views.Shared._Layout.en.resources
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.Resources.Views.Shared._Layout.tr.resources
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.csproj.GenerateResource.cache
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.AssemblyInfoInputs.cache
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.AssemblyInfo.cs
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.csproj.CoreCompileInputs.cache
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.RazorAssemblyInfo.cache
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.RazorAssemblyInfo.cs
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\en\RandevuSistemi.resources.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\tr\RandevuSistemi.resources.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\staticwebassets\msbuild.RandevuSistemi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\staticwebassets\msbuild.build.RandevuSistemi.props
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.RandevuSistemi.props
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.RandevuSistemi.props
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\scopedcss\Views\Shared\_AdminLayout.cshtml.rz.scp.css
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\scopedcss\bundle\RandevuSistemi.styles.css
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\scopedcss\projectbundle\RandevuSistemi.bundle.scp.css
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.csproj.CopyComplete
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\refint\RandevuSistemi.dll
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.pdb
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.genruntimeconfig.cache
+C:\Users\Aysenur\OneDrive\Masaüstü\Web-Programlama-Proje--devi-main - Kopya\SauRandevuSistemi-dal\RandevuSistemi\obj\Debug\net6.0\ref\RandevuSistemi.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\appsettings.Development.json
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\appsettings.json
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\RandevuSistemi.staticwebassets.runtime.json
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\RandevuSistemi.exe
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\RandevuSistemi.deps.json
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\RandevuSistemi.runtimeconfig.json
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\RandevuSistemi.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\RandevuSistemi.pdb
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\en\RandevuSistemi.resources.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\tr\RandevuSistemi.resources.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\Azure.Core.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\Azure.Identity.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\Humanizer.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\System.CodeDom.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\System.Text.Json.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.csproj.AssemblyReference.cache
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.Resources.Views.Home.GirisYap.en.resources
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.Resources.Views.Home.GirisYap.tr.resources
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.Resources.Views.Home.Index.en.resources
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.Resources.Views.Home.Index.tr.resources
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.Resources.Views.Home.UyeOl.en.resources
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.Resources.Views.Home.UyeOl.tr.resources
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.Resources.Views.Shared._Layout.en.resources
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.Resources.Views.Shared._Layout.tr.resources
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.csproj.GenerateResource.cache
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.AssemblyInfoInputs.cache
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.AssemblyInfo.cs
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.csproj.CoreCompileInputs.cache
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.MvcApplicationPartsAssemblyInfo.cache
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.RazorAssemblyInfo.cache
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.RazorAssemblyInfo.cs
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\obj\Debug\net6.0\en\RandevuSistemi.resources.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\obj\Debug\net6.0\tr\RandevuSistemi.resources.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\obj\Debug\net6.0\staticwebassets\msbuild.RandevuSistemi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\obj\Debug\net6.0\staticwebassets\msbuild.build.RandevuSistemi.props
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.RandevuSistemi.props
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.RandevuSistemi.props
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\obj\Debug\net6.0\staticwebassets.build.json
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\obj\Debug\net6.0\staticwebassets.development.json
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\obj\Debug\net6.0\scopedcss\Views\Shared\_AdminLayout.cshtml.rz.scp.css
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\obj\Debug\net6.0\scopedcss\bundle\RandevuSistemi.styles.css
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\obj\Debug\net6.0\scopedcss\projectbundle\RandevuSistemi.bundle.scp.css
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.csproj.CopyComplete
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\obj\Debug\net6.0\refint\RandevuSistemi.dll
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.pdb
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\obj\Debug\net6.0\RandevuSistemi.genruntimeconfig.cache
+C:\Dersler\web_programlama\proje_web_programlama\AysenurOzkan_Y225012153\Y225012153_WebProgramlama\RandevuSistemi\obj\Debug\net6.0\ref\RandevuSistemi.dll

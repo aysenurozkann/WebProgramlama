@@ -1,4 +1,5 @@
 ﻿using HastaneRandevu_Y225012153.Models.Domain;
+using HastaneRandevu_Y225012153.Models.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace HastaneRandevu_Y225012153.Data
@@ -23,6 +24,10 @@ namespace HastaneRandevu_Y225012153.Data
         public DbSet<Doktor>? Doktorlar { get; set; }
         public DbSet<AnabilimDali>? AnabilimDallari { get; set; }
         public DbSet<CalismaSaati>? CalismaSaatleri { get; set; }
+        public DbSet<Poliklinik>? Poliklinikler { get; set; }
+        public DbSet<Hizmetler> Hizmetler { get; set; }
+        public DbSet<User> Users { get; set; }
+
         public DbSet<Randevu>? Randevular {  get; set; }
     }
 }

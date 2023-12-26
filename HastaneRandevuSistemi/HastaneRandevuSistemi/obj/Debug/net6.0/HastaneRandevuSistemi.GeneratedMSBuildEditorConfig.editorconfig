@@ -18,6 +18,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\user\Desktop\WebProgramlamaProje\WebProgramlama\HastaneRandevuSistemi\HastaneRandevuSistemi
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/user/Desktop/WebProgramlamaProje/WebProgramlama/HastaneRandevuSistemi/HastaneRandevuSistemi/Views/Admin/AnaBilimDaliEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQW5hQmlsaW1EYWxpRWtsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/WebProgramlamaProje/WebProgramlama/HastaneRandevuSistemi/HastaneRandevuSistemi/Views/Admin/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/user/Desktop/WebProgramlamaProje/WebProgramlama/HastaneRandevuSistemi/HastaneRandevuSistemi/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

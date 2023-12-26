@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\HastaneRandevu_Y225012153.props" />
-</Project>

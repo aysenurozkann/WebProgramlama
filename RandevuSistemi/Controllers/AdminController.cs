@@ -19,12 +19,12 @@ namespace HayvanBarinagi.Controllers
         // Admin kontrolü yapıyoruz. Kullanıcı Adı admin'e uyuyor mu ?
         public bool AdminControl()
         {
-            if (User.Identity.IsAuthenticated) 
+            if (true) // User.Identity.IsAuthenticated
             {
                 
                 string userName = User.Identity.Name;
 
-                if (userName == "admin") // Kullanıcı adı "admin" mi?
+                if (userName == "Y225012153@sakarya.edu.tr") // Kullanıcı adı kontrolu
                 {
                     return true;
                 }

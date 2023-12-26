@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2m6ynEtirHRoggfOFzV9U66PrGaDuewfQBcAS8gofO3q5VPi8OlQ+RD2EyG8yXzutSou32OYvRN/hpdWfYkLiQ==",
+  "dgSpecHash": "4NXZ8QfJNn8onHSOGyv4aO3cK/SWWvsEwDCauDltd36cEWA2XEiJhYAn2yHwzXi6dzYCYcGsJpcg8FOEQ9YMuQ==",
   "success": true,
-  "projectFilePath": "C:\\Dersler\\web_programlama\\proje_web_programlama\\AysenurOzkan_Y225012153\\Y225012153_WebProgramlama\\RandevuSistemi\\RandevuSistemi.csproj",
+  "projectFilePath": "C:\\Dersler\\web_programlama\\proje_web_programlama\\AysenurOzkan_Y225012153\\WebProgramlamaProje\\WebProgramlama\\RandevuSistemi\\RandevuSistemi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Aysenur\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Aysenur\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

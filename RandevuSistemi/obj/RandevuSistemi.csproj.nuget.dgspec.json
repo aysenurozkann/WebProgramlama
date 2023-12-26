@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dersler\\web_programlama\\proje_web_programlama\\AysenurOzkan_Y225012153\\Y225012153_WebProgramlama\\RandevuSistemi\\RandevuSistemi.csproj": {}
+    "C:\\Dersler\\web_programlama\\proje_web_programlama\\AysenurOzkan_Y225012153\\WebProgramlamaProje\\WebProgramlama\\RandevuSistemi\\RandevuSistemi.csproj": {}
   },
   "projects": {
-    "C:\\Dersler\\web_programlama\\proje_web_programlama\\AysenurOzkan_Y225012153\\Y225012153_WebProgramlama\\RandevuSistemi\\RandevuSistemi.csproj": {
+    "C:\\Dersler\\web_programlama\\proje_web_programlama\\AysenurOzkan_Y225012153\\WebProgramlamaProje\\WebProgramlama\\RandevuSistemi\\RandevuSistemi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dersler\\web_programlama\\proje_web_programlama\\AysenurOzkan_Y225012153\\Y225012153_WebProgramlama\\RandevuSistemi\\RandevuSistemi.csproj",
+        "projectUniqueName": "C:\\Dersler\\web_programlama\\proje_web_programlama\\AysenurOzkan_Y225012153\\WebProgramlamaProje\\WebProgramlama\\RandevuSistemi\\RandevuSistemi.csproj",
         "projectName": "RandevuSistemi",
-        "projectPath": "C:\\Dersler\\web_programlama\\proje_web_programlama\\AysenurOzkan_Y225012153\\Y225012153_WebProgramlama\\RandevuSistemi\\RandevuSistemi.csproj",
+        "projectPath": "C:\\Dersler\\web_programlama\\proje_web_programlama\\AysenurOzkan_Y225012153\\WebProgramlamaProje\\WebProgramlama\\RandevuSistemi\\RandevuSistemi.csproj",
         "packagesPath": "C:\\Users\\Aysenur\\.nuget\\packages\\",
-        "outputPath": "C:\\Dersler\\web_programlama\\proje_web_programlama\\AysenurOzkan_Y225012153\\Y225012153_WebProgramlama\\RandevuSistemi\\obj\\",
+        "outputPath": "C:\\Dersler\\web_programlama\\proje_web_programlama\\AysenurOzkan_Y225012153\\WebProgramlamaProje\\WebProgramlama\\RandevuSistemi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Aysenur\\AppData\\Roaming\\NuGet\\NuGet.Config",

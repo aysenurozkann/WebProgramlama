@@ -58,37 +58,38 @@ namespace HastaneRandevuSistemi.Controllers
             return RedirectToAction("AnaBilimDaliEkle");
         }
 
-        public IActionResult PoliklinikEkle()
+        public IActionResult Poliklinik()
         {
             var admin = true;
-            if (admin) // Burada Admin kontrolunu yap
-            {
-                var PolikliniklerD = _context.Poliklinikler.ToList();
-                return View(PolikliniklerD);
-
+            if(admin)
+            {   
+                var PoliklinikD = _context.Poliklinikler.ToList();
+                return View(PoliklinikD);
             }
             else
-                return RedirectToAction("Index", "Home");
+            { return RedirectToAction("Index", "Home"); }
         }
 
         public IActionResult CreatePoliklinik()
         {
             return View();
+
         }
         [HttpPost]
-        public IActionResult CreatePoliklinik(Poliklinikler pol1)
+        public IActionResult CreatePoliklinik(Poliklinikler Pol1) // poliklinik mi olacak burasi
         {
             if (ModelState.IsValid)
             {
-                _context.Add(pol1);
+                _context.Add(Pol1);
                 _context.SaveChanges();
-                return RedirectToAction("PoliklinikEkle");
+                return RedirectToAction("Poliklinik");
             }
             else
             {
-                ViewBag.msj = "Poliklinik  Eklenemedi!";
-                return View(pol1);
+                ViewBag.msj = "Poliklinik Eklenemedi!";
+                return View(Pol1);
             }
+
         }
     }
 }

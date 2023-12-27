@@ -1,3 +1,13 @@
 ﻿@{
-    Layout = "_Layout";
+    var actionDescriptor = ViewContext.ActionDescriptor;
+
+    // Eğer Controller "AdminController" ise "Layout" layout'unu kullan
+    if (actionDescriptor.RouteValues["controller"] == "Admin")
+    {
+        Layout = "_Layout";
+    }
+    else
+    {
+        Layout = "_KullaniciLayout";
+    }
 }

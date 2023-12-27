@@ -18,20 +18,32 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\user\Desktop\WebProgramlamaProje\WebProgramlama\HastaneRandevuSistemi\HastaneRandevuSistemi
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/user/Desktop/WebProgramlamaProje/WebProgramlama/HastaneRandevuSistemi/HastaneRandevuSistemi/Views/Admin/AnaBilimDaliEkle.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQW5hQmlsaW1EYWxpRWtsZS5jc2h0bWw=
+[C:/Users/user/Desktop/WebProgramlamaProje/WebProgramlama/HastaneRandevuSistemi/HastaneRandevuSistemi/Views/Admin/AnabilimDaliEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQW5hYmlsaW1EYWxpRWtsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/WebProgramlamaProje/WebProgramlama/HastaneRandevuSistemi/HastaneRandevuSistemi/Views/Admin/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlLmNzaHRtbA==
+[C:/Users/user/Desktop/WebProgramlamaProje/WebProgramlama/HastaneRandevuSistemi/HastaneRandevuSistemi/Views/Admin/Doktor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRG9rdG9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/WebProgramlamaProje/WebProgramlama/HastaneRandevuSistemi/HastaneRandevuSistemi/Views/Admin/CreatePoliklinik.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlUG9saWtsaW5pay5jc2h0bWw=
+[C:/Users/user/Desktop/WebProgramlamaProje/WebProgramlama/HastaneRandevuSistemi/HastaneRandevuSistemi/Views/Admin/DoktorCalismaSaatiOlustur.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRG9rdG9yQ2FsaXNtYVNhYXRpT2x1c3R1ci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/WebProgramlamaProje/WebProgramlama/HastaneRandevuSistemi/HastaneRandevuSistemi/Views/Admin/DoktorEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRG9rdG9yRWtsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/WebProgramlamaProje/WebProgramlama/HastaneRandevuSistemi/HastaneRandevuSistemi/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/user/Desktop/WebProgramlamaProje/WebProgramlama/HastaneRandevuSistemi/HastaneRandevuSistemi/Views/Admin/Poliklinik.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUG9saWtsaW5pay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/WebProgramlamaProje/WebProgramlama/HastaneRandevuSistemi/HastaneRandevuSistemi/Views/Admin/PoliklinikEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUG9saWtsaW5pa0VrbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/user/Desktop/WebProgramlamaProje/WebProgramlama/HastaneRandevuSistemi/HastaneRandevuSistemi/Views/Home/Index.cshtml]

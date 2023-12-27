@@ -1,35 +1,18 @@
-﻿@model IEnumerable<HastaneRandevuSistemi.Models.AnaBilimDali>
+﻿﻿<h2 class="text-center mb-4">Yeni Anabilim Dalı Ekleyin</h2>
 
-@{
-    ViewData["Title"] = "AnaBilimDaliEkle";
+@using (Html.BeginForm("AnabilimDaliEkle", "Admin", FormMethod.Post))
+{
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <form>
+                <div class="mb-3">
+                    <label for="ad" class="form-label">Ana Bilim Dalı Adı</label>
+                    <input type="text" class="form-control" id="ad" name="AnaBilimDaliAdi" required>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <button type="submit" class="btn btn-primary btn-md">Ekle</button>
+                </div>
+            </form>
+        </div>
+    </div>
 }
-
-<h1>Yeni Anabilim Dalı Ekle</h1>
-
-<p>
-    <a asp-action="Create">Oluştur</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.AnaBilimDaliAdi)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.AnaBilimDaliAdi)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>

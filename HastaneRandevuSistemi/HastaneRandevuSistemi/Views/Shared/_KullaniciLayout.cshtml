@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -20,7 +22,7 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Kullanici" asp-action="Poliklinikler">Poliklinikleri Görüntüle</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Kullanici" asp-action="Poliklinikler">@_localization.Getkey("Poliklinikler").Value </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Kullanici" asp-action="DoktorlarvePoliklinik">Doktor Görüntüle</a>
@@ -34,6 +36,30 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
+                        <li>
+                            <div class="dropdown">
+                                <button type="button"
+                                        class="btn btn-primary dropdown-toggle"
+                                        data-bs-toggle="dropdown">
+                                    Localization
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a asp-controller="Home"
+                                           asp-action="ChangeLanguage"
+                                           asp-route-culture="en-US"
+                                           class="dropdown-item">
+                                            <i class="flag-icon flag-icon-gb"></i> English
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a asp-controller="Home"
+                                           asp-action="ChangeLanguage"
+                                           asp-route-culture="tr-TR"
+                                           class="dropdown-item">
+                                            <i class="flag-icon flag-icon-gb"></i> Türkçe
+                                        </a>
+                                    </li>
                     </ul>
                 </div>
             </div>

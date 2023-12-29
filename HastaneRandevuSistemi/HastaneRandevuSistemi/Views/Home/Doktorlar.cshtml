@@ -1,0 +1,35 @@
+﻿﻿@using HastaneRandevuSistemi.Models
+@model List<PoliklinikBilgileri>
+
+@{
+    ViewData["Title"] = "Doktorlar";
+}
+<br />
+<br />
+<br />
+<br />
+<br />
+
+<header class="text-center py-4">
+    <h1>Sakarya Üniversitesi Hastanesi</h1>
+    <p class="lead">Poliklinikler ve Doktorları</p>
+</header>
+
+@foreach (var item in Model)
+{
+    <div class="list-group mb-3">
+        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">@(item.PolikliniklerinAdi)</h5>
+            </div>
+
+            <p class="mb-1">@item.doktor.DoktorAdSoyad</p>
+        </a>
+    </div>
+    <style>
+        .list-group-item:hover {
+            background-color: #ff0000;
+            cursor: pointer;
+        }
+    </style>
+}

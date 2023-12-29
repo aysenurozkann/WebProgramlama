@@ -22,4 +22,15 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\tema\public\assets\img\screenshots\" />
+    <Folder Include="wwwroot\tema\public\vendors\anchorjs\" />
+    <Folder Include="wwwroot\tema\public\vendors\imagesloaded\" />
+    <Folder Include="wwwroot\tema\public\vendors\lodash\" />
+    <Folder Include="wwwroot\tema\public\vendors\popper\" />
+    <Folder Include="wwwroot\tema\public\vendors\prism\" />
+    <Folder Include="wwwroot\tema\public\vendors\rellax\" />
+    <Folder Include="wwwroot\tema\src\pug\mixins\common\" />
+  </ItemGroup>
+
 </Project>

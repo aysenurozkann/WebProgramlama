@@ -1,6 +1,7 @@
 ﻿using HastaneRandevuSistemi.Data;
 using HastaneRandevuSistemi.Models;
 using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -86,7 +87,7 @@ namespace HastaneRandevuSistemi.Controllers
                     return LocalRedirect(returnUrl);
                 }
 
-                //Burası güncellenecek öğrenci numarasına göre
+                
                 if (kontrol.KullaniciAdi == "Y225012153@sakarya.edu.tr" && kontrol.KullaniciSifre == "sau")
                     return RedirectToAction("Index", "Admin");
                 else
@@ -98,6 +99,58 @@ namespace HastaneRandevuSistemi.Controllers
                 return View();
             }
 
+        }
+        [HttpGet]
+        public async Task<IActionResult> LogOut()
+        {
+            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+            return RedirectToAction("Index", "Home");
+        }
+
+        public IActionResult Doktorlar()
+        {
+            var tumDoktorlar = _context.Doktorlar.ToList();
+            var tumPoliklinikler = _context.Poliklinikler.ToList();
+
+            var poliklinikModelList = new List<PoliklinikBilgileri>();
+
+            foreach (var doktor in tumDoktorlar)
+            {
+                var poliklinikler = tumPoliklinikler.FirstOrDefault(abd => abd.Id == doktor.PoliklinikId);
+
+                var doktorVePoliklinik = new PoliklinikBilgileri
+                {
+                    doktor = doktor,
+                    PolikliniklerinAdi = poliklinikler?.PoliklinikAdi
+                };
+
+                poliklinikModelList.Add(doktorVePoliklinik);
+            }
+
+            return View(poliklinikModelList);
+        }
+
+        public IActionResult Poliklinikler()
+        {
+            var poliklinikler = _context.Poliklinikler.ToList();
+            var tumAnabilimDallari = _context.AnaBilimDallari.ToList();
+
+            var poliklinikList1 = new List<AnaBilimDaliBilgileri>();
+
+            foreach (var poliklinik in poliklinikler)
+            {
+                var anaBilimDali = tumAnabilimDallari.FirstOrDefault(abd => abd.Id == poliklinik.AnaBilimDaliId);
+
+                var poliklinikList2 = new AnaBilimDaliBilgileri
+                {
+                    poliklinikler = poliklinik,
+                    AnaBilimDallariAdi = anaBilimDali?.AnaBilimDaliAdi
+                };
+
+                poliklinikList1.Add(poliklinikList2);
+            }
+
+            return View(poliklinikList1);
         }
     }
 }

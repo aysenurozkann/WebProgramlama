@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewData["Title"] = "Üye Olma Sayfası";
+}
+
+@using (Html.BeginForm("KayitOl", "Home", FormMethod.Post))
+{
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <form>
+                <div class="mb-3">
+                    <label for="username" class="form-label">Ad Soyad</label>
+                    <input type="text" class="form-control" id="username" name="KullaniciAdSoyad" required>
+                </div>
+                <div class="mb-3">
+                    <label for="username" class="form-label">Kullanıcı Adı</label>
+                    <input type="text" class="form-control" id="username" name="KullaniciAdi" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">E-Mail</label>
+                    <input type="email" class="form-control" id="email" name="KullaniciEmail" required>
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Şifre</label>
+                    <input type="password" class="form-control" id="password" name="KullaniciSifre" required>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <button type="submit" class="btn btn-primary btn-md">Kayıt Ol</button>
+                </div>
+            </form>
+        </div>
+    </div>
+}

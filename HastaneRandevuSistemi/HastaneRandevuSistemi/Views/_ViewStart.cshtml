@@ -6,8 +6,12 @@
     {
         Layout = "_Layout";
     }
+    else if (actionDescriptor.RouteValues["controller"] == "Kullanici")
+    {
+        Layout = "_KullaniciLayout";    // varsayılan
+    }
     else
     {
-        Layout = "_KullaniciLayout";
+        Layout = "_HomeLayout";
     }
 }

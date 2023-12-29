@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Giriş Sayfası";
+}
+
+
+<h4 class="text-center text-danger">@TempData["LoginGerekli"]</h4>
+@using (Html.BeginForm("GirisYap", "Home", FormMethod.Post))
+
+{
+
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <form>
+                <div class="mb-3">
+                    <label for="username" class="form-label">Kullanıcı Adı</label>
+                    <input type="text" class="form-control" id="username" name="KullaniciAdi" required>
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Sifre</label>
+                    <input type="password" class="form-control" id="password" name="KullaniciSifre" required>
+                </div>
+                <small>@ViewBag.Mesaj</small>
+                <div class="d-flex justify-content-center">
+                    <button type="submit" class="btn btn-primary btn-md">Giriş Yap</button>
+                </div>
+            </form>
+        </div>
+    </div>
+}

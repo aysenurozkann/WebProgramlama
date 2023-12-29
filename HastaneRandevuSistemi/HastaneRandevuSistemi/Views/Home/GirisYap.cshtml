@@ -2,8 +2,7 @@
     ViewData["Title"] = "Giriş Sayfası";
 }
 
-
-<h4 class="text-center text-danger">@TempData["LoginGerekli"]</h4>
+<h1>@ViewBag.Message</h1>
 @using (Html.BeginForm("GirisYap", "Home", FormMethod.Post))
 
 {

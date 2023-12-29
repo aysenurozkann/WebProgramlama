@@ -6,6 +6,7 @@ namespace HastaneRandevuSistemi.Models
     {
         [Key]
         public int Id { get; set; }
+        [Display(Name = "Doktor Ad Soyad")]
         public string? DoktorAdSoyad  { get; set; }
         public int PoliklinikId { get; set; }
 

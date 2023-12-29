@@ -87,7 +87,7 @@ namespace HastaneRandevuSistemi.Controllers
                 }
 
                 //Burası güncellenecek öğrenci numarasına göre
-                if (kontrol.KullaniciAdi == "Y225012153@sakarya.edu.tr")
+                if (kontrol.KullaniciAdi == "Y225012153@sakarya.edu.tr" && kontrol.KullaniciSifre == "sau")
                     return RedirectToAction("Index", "Admin");
                 else
                     return RedirectToAction("Index", "Kullanici");

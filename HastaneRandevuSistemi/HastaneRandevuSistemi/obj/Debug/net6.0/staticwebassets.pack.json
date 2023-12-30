@@ -425,86 +425,6 @@
       "PackagePath": "staticwebassets\\tema\\public\\assets\\img\\favicons\\site.webmanifest"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\WebProgramlamaProje\\WebProgramlama\\HastaneRandevuSistemi\\HastaneRandevuSistemi\\wwwroot\\tema\\public\\assets\\img\\gallery\\1200px-Max_Ernst_1968.jpg",
-      "PackagePath": "staticwebassets\\tema\\public\\assets\\img\\gallery\\1200px-Max_Ernst_1968.jpg"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\WebProgramlamaProje\\WebProgramlama\\HastaneRandevuSistemi\\HastaneRandevuSistemi\\wwwroot\\tema\\public\\assets\\img\\gallery\\Image3.svg",
-      "PackagePath": "staticwebassets\\tema\\public\\assets\\img\\gallery\\Image3.svg"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\WebProgramlamaProje\\WebProgramlama\\HastaneRandevuSistemi\\HastaneRandevuSistemi\\wwwroot\\tema\\public\\assets\\img\\gallery\\Yves_Tanguy_(by_Denise_Bellon).png",
-      "PackagePath": "staticwebassets\\tema\\public\\assets\\img\\gallery\\Yves_Tanguy_(by_Denise_Bellon).png"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\WebProgramlamaProje\\WebProgramlama\\HastaneRandevuSistemi\\HastaneRandevuSistemi\\wwwroot\\tema\\public\\assets\\img\\gallery\\a.jpg",
-      "PackagePath": "staticwebassets\\tema\\public\\assets\\img\\gallery\\a.jpg"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\WebProgramlamaProje\\WebProgramlama\\HastaneRandevuSistemi\\HastaneRandevuSistemi\\wwwroot\\tema\\public\\assets\\img\\gallery\\about-bg.png",
-      "PackagePath": "staticwebassets\\tema\\public\\assets\\img\\gallery\\about-bg.png"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\WebProgramlamaProje\\WebProgramlama\\HastaneRandevuSistemi\\HastaneRandevuSistemi\\wwwroot\\tema\\public\\assets\\img\\gallery\\about-us.png",
-      "PackagePath": "staticwebassets\\tema\\public\\assets\\img\\gallery\\about-us.png"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\WebProgramlamaProje\\WebProgramlama\\HastaneRandevuSistemi\\HastaneRandevuSistemi\\wwwroot\\tema\\public\\assets\\img\\gallery\\anita.png",
-      "PackagePath": "staticwebassets\\tema\\public\\assets\\img\\gallery\\anita.png"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\WebProgramlamaProje\\WebProgramlama\\HastaneRandevuSistemi\\HastaneRandevuSistemi\\wwwroot\\tema\\public\\assets\\img\\gallery\\appointment-bg.png",
-      "PackagePath": "staticwebassets\\tema\\public\\assets\\img\\gallery\\appointment-bg.png"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\WebProgramlamaProje\\WebProgramlama\\HastaneRandevuSistemi\\HastaneRandevuSistemi\\wwwroot\\tema\\public\\assets\\img\\gallery\\appointment-img-bg.png",
-      "PackagePath": "staticwebassets\\tema\\public\\assets\\img\\gallery\\appointment-img-bg.png"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\WebProgramlamaProje\\WebProgramlama\\HastaneRandevuSistemi\\HastaneRandevuSistemi\\wwwroot\\tema\\public\\assets\\img\\gallery\\appointment.png",
-      "PackagePath": "staticwebassets\\tema\\public\\assets\\img\\gallery\\appointment.png"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\WebProgramlamaProje\\WebProgramlama\\HastaneRandevuSistemi\\HastaneRandevuSistemi\\wwwroot\\tema\\public\\assets\\img\\gallery\\bg-departments.png",
-      "PackagePath": "staticwebassets\\tema\\public\\assets\\img\\gallery\\bg-departments.png"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\WebProgramlamaProje\\WebProgramlama\\HastaneRandevuSistemi\\HastaneRandevuSistemi\\wwwroot\\tema\\public\\assets\\img\\gallery\\bg-eye-care.png",
-      "PackagePath": "staticwebassets\\tema\\public\\assets\\img\\gallery\\bg-eye-care.png"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\WebProgramlamaProje\\WebProgramlama\\HastaneRandevuSistemi\\HastaneRandevuSistemi\\wwwroot\\tema\\public\\assets\\img\\gallery\\blog-post.png",
-      "PackagePath": "staticwebassets\\tema\\public\\assets\\img\\gallery\\blog-post.png"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\WebProgramlamaProje\\WebProgramlama\\HastaneRandevuSistemi\\HastaneRandevuSistemi\\wwwroot\\tema\\public\\assets\\img\\gallery\\covid-19.png",
-      "PackagePath": "staticwebassets\\tema\\public\\assets\\img\\gallery\\covid-19.png"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\WebProgramlamaProje\\WebProgramlama\\HastaneRandevuSistemi\\HastaneRandevuSistemi\\wwwroot\\tema\\public\\assets\\img\\gallery\\cta-bg.png",
-      "PackagePath": "staticwebassets\\tema\\public\\assets\\img\\gallery\\cta-bg.png"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\WebProgramlamaProje\\WebProgramlama\\HastaneRandevuSistemi\\HastaneRandevuSistemi\\wwwroot\\tema\\public\\assets\\img\\gallery\\doctors-bg.png",
-      "PackagePath": "staticwebassets\\tema\\public\\assets\\img\\gallery\\doctors-bg.png"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\WebProgramlamaProje\\WebProgramlama\\HastaneRandevuSistemi\\HastaneRandevuSistemi\\wwwroot\\tema\\public\\assets\\img\\gallery\\doctors-us.png",
-      "PackagePath": "staticwebassets\\tema\\public\\assets\\img\\gallery\\doctors-us.png"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\WebProgramlamaProje\\WebProgramlama\\HastaneRandevuSistemi\\HastaneRandevuSistemi\\wwwroot\\tema\\public\\assets\\img\\gallery\\dot-bg.png",
-      "PackagePath": "staticwebassets\\tema\\public\\assets\\img\\gallery\\dot-bg.png"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\WebProgramlamaProje\\WebProgramlama\\HastaneRandevuSistemi\\HastaneRandevuSistemi\\wwwroot\\tema\\public\\assets\\img\\gallery\\eye-care.png",
-      "PackagePath": "staticwebassets\\tema\\public\\assets\\img\\gallery\\eye-care.png"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\WebProgramlamaProje\\WebProgramlama\\HastaneRandevuSistemi\\HastaneRandevuSistemi\\wwwroot\\tema\\public\\assets\\img\\gallery\\footer-logo.png",
-      "PackagePath": "staticwebassets\\tema\\public\\assets\\img\\gallery\\footer-logo.png"
-    },
-    {
       "Id": "C:\\Users\\user\\Desktop\\WebProgramlamaProje\\WebProgramlama\\HastaneRandevuSistemi\\HastaneRandevuSistemi\\wwwroot\\tema\\public\\assets\\img\\gallery\\health-care.png",
       "PackagePath": "staticwebassets\\tema\\public\\assets\\img\\gallery\\health-care.png"
     },
@@ -513,64 +433,8 @@
       "PackagePath": "staticwebassets\\tema\\public\\assets\\img\\gallery\\health-care.svg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\WebProgramlamaProje\\WebProgramlama\\HastaneRandevuSistemi\\HastaneRandevuSistemi\\wwwroot\\tema\\public\\assets\\img\\gallery\\hero-bg.png",
-      "PackagePath": "staticwebassets\\tema\\public\\assets\\img\\gallery\\hero-bg.png"
-    },
-    {
       "Id": "C:\\Users\\user\\Desktop\\WebProgramlamaProje\\WebProgramlama\\HastaneRandevuSistemi\\HastaneRandevuSistemi\\wwwroot\\tema\\public\\assets\\img\\gallery\\hero.png",
       "PackagePath": "staticwebassets\\tema\\public\\assets\\img\\gallery\\hero.png"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\WebProgramlamaProje\\WebProgramlama\\HastaneRandevuSistemi\\HastaneRandevuSistemi\\wwwroot\\tema\\public\\assets\\img\\gallery\\jane.png",
-      "PackagePath": "staticwebassets\\tema\\public\\assets\\img\\gallery\\jane.png"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\WebProgramlamaProje\\WebProgramlama\\HastaneRandevuSistemi\\HastaneRandevuSistemi\\wwwroot\\tema\\public\\assets\\img\\gallery\\laboratories.png",
-      "PackagePath": "staticwebassets\\tema\\public\\assets\\img\\gallery\\laboratories.png"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\WebProgramlamaProje\\WebProgramlama\\HastaneRandevuSistemi\\HastaneRandevuSistemi\\wwwroot\\tema\\public\\assets\\img\\gallery\\leo-mario.png",
-      "PackagePath": "staticwebassets\\tema\\public\\assets\\img\\gallery\\leo-mario.png"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\WebProgramlamaProje\\WebProgramlama\\HastaneRandevuSistemi\\HastaneRandevuSistemi\\wwwroot\\tema\\public\\assets\\img\\gallery\\logo.png",
-      "PackagePath": "staticwebassets\\tema\\public\\assets\\img\\gallery\\logo.png"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\WebProgramlamaProje\\WebProgramlama\\HastaneRandevuSistemi\\HastaneRandevuSistemi\\wwwroot\\tema\\public\\assets\\img\\gallery\\nicotine.png",
-      "PackagePath": "staticwebassets\\tema\\public\\assets\\img\\gallery\\nicotine.png"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\WebProgramlamaProje\\WebProgramlama\\HastaneRandevuSistemi\\HastaneRandevuSistemi\\wwwroot\\tema\\public\\assets\\img\\gallery\\people-bg-1.png",
-      "PackagePath": "staticwebassets\\tema\\public\\assets\\img\\gallery\\people-bg-1.png"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\WebProgramlamaProje\\WebProgramlama\\HastaneRandevuSistemi\\HastaneRandevuSistemi\\wwwroot\\tema\\public\\assets\\img\\gallery\\people-bg.png",
-      "PackagePath": "staticwebassets\\tema\\public\\assets\\img\\gallery\\people-bg.png"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\WebProgramlamaProje\\WebProgramlama\\HastaneRandevuSistemi\\HastaneRandevuSistemi\\wwwroot\\tema\\public\\assets\\img\\gallery\\people-who-loves.png",
-      "PackagePath": "staticwebassets\\tema\\public\\assets\\img\\gallery\\people-who-loves.png"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\WebProgramlamaProje\\WebProgramlama\\HastaneRandevuSistemi\\HastaneRandevuSistemi\\wwwroot\\tema\\public\\assets\\img\\gallery\\people.png",
-      "PackagePath": "staticwebassets\\tema\\public\\assets\\img\\gallery\\people.png"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\WebProgramlamaProje\\WebProgramlama\\HastaneRandevuSistemi\\HastaneRandevuSistemi\\wwwroot\\tema\\public\\assets\\img\\gallery\\pexels-anna-shvets-3845983.jpg",
-      "PackagePath": "staticwebassets\\tema\\public\\assets\\img\\gallery\\pexels-anna-shvets-3845983.jpg"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\WebProgramlamaProje\\WebProgramlama\\HastaneRandevuSistemi\\HastaneRandevuSistemi\\wwwroot\\tema\\public\\assets\\img\\gallery\\pexels-chokniti-khongchum-2280549.jpg",
-      "PackagePath": "staticwebassets\\tema\\public\\assets\\img\\gallery\\pexels-chokniti-khongchum-2280549.jpg"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\WebProgramlamaProje\\WebProgramlama\\HastaneRandevuSistemi\\HastaneRandevuSistemi\\wwwroot\\tema\\public\\assets\\img\\gallery\\speaker-2-v2.jpg",
-      "PackagePath": "staticwebassets\\tema\\public\\assets\\img\\gallery\\speaker-2-v2.jpg"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\WebProgramlamaProje\\WebProgramlama\\HastaneRandevuSistemi\\HastaneRandevuSistemi\\wwwroot\\tema\\public\\assets\\img\\gallery\\treatment.png",
-      "PackagePath": "staticwebassets\\tema\\public\\assets\\img\\gallery\\treatment.png"
     },
     {
       "Id": "C:\\Users\\user\\Desktop\\WebProgramlamaProje\\WebProgramlama\\HastaneRandevuSistemi\\HastaneRandevuSistemi\\wwwroot\\tema\\public\\assets\\img\\icons\\cardiac.png",
@@ -621,14 +485,6 @@
       "PackagePath": "staticwebassets\\tema\\public\\assets\\img\\icons\\osteoporosis.svg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\WebProgramlamaProje\\WebProgramlama\\HastaneRandevuSistemi\\HastaneRandevuSistemi\\wwwroot\\tema\\public\\assets\\img\\illustrations\\callback.png",
-      "PackagePath": "staticwebassets\\tema\\public\\assets\\img\\illustrations\\callback.png"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\WebProgramlamaProje\\WebProgramlama\\HastaneRandevuSistemi\\HastaneRandevuSistemi\\wwwroot\\tema\\public\\assets\\img\\illustrations\\hero.png",
-      "PackagePath": "staticwebassets\\tema\\public\\assets\\img\\illustrations\\hero.png"
-    },
-    {
       "Id": "C:\\Users\\user\\Desktop\\WebProgramlamaProje\\WebProgramlama\\HastaneRandevuSistemi\\HastaneRandevuSistemi\\wwwroot\\tema\\public\\assets\\img\\logo.png",
       "PackagePath": "staticwebassets\\tema\\public\\assets\\img\\logo.png"
     },
@@ -655,18 +511,6 @@
     {
       "Id": "C:\\Users\\user\\Desktop\\WebProgramlamaProje\\WebProgramlama\\HastaneRandevuSistemi\\HastaneRandevuSistemi\\wwwroot\\tema\\public\\assets\\video\\.gitkeep",
       "PackagePath": "staticwebassets\\tema\\public\\assets\\video\\.gitkeep"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\WebProgramlamaProje\\WebProgramlama\\HastaneRandevuSistemi\\HastaneRandevuSistemi\\wwwroot\\tema\\public\\assets\\video\\beach.jpg",
-      "PackagePath": "staticwebassets\\tema\\public\\assets\\video\\beach.jpg"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\WebProgramlamaProje\\WebProgramlama\\HastaneRandevuSistemi\\HastaneRandevuSistemi\\wwwroot\\tema\\public\\assets\\video\\beach.mp4",
-      "PackagePath": "staticwebassets\\tema\\public\\assets\\video\\beach.mp4"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\WebProgramlamaProje\\WebProgramlama\\HastaneRandevuSistemi\\HastaneRandevuSistemi\\wwwroot\\tema\\public\\assets\\video\\beach.webm",
-      "PackagePath": "staticwebassets\\tema\\public\\assets\\video\\beach.webm"
     },
     {
       "Id": "C:\\Users\\user\\Desktop\\WebProgramlamaProje\\WebProgramlama\\HastaneRandevuSistemi\\HastaneRandevuSistemi\\wwwroot\\tema\\public\\index.html",

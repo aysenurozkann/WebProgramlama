@@ -6,7 +6,6 @@
 <table class="table">
     <thead class="thead-light">
         <tr>
-            <th scope="col">Id</th>
             <th scope="col">Ad Soyad</th>
             <th scope="col">Bağlı Olduğu Poliklinik</th>
             <!--<th scope="col">Doktor Çalışma Saati Atama</th>-->
@@ -17,7 +16,6 @@
         @foreach (var item in Model)
         {
             <tr>
-                <td>@item.doktor.Id</td>
                 <td>@item.doktor.DoktorAdSoyad</td>
                 <td>@item.PolikliniklerinAdi</td>
                 <!--<td>

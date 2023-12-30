@@ -101,6 +101,47 @@ namespace HastaneRandevuSistemi.Controllers
 
             return View(poliklinikModelList);
         }
+        public IActionResult DoktorSec(int Id)
+        {
+            var doktorBilgileri = _context.Doktorlar.Where(x => x.Id == Id).ToList();
+            return View();
+        }
+
+        public Doktor DoktorBilgiGetir(int Id)
+
+        {
+            var RandevuAlinanDoktor = _context.Doktorlar.Where(x=> x.Id == Id).FirstOrDefault();
+            return RandevuAlinanDoktor;
+        }
+        [HttpPost]
+        public IActionResult RandevuOlustur(int doctorId)
+        {
+            var currentUser = _context.Kullanicilar.FirstOrDefault(u => u.KullaniciAdi == User.Identity.Name);
+
+            //randevu alınan doktoru idsine göre bul
+            var randevuAlinanDoktor = DoktorBilgiGetir(doctorId);
+
+
+            //Doktorun id si ve çalışma saati veritabanında varsa yani böyle bir doktor varsa bunu değişkene ata çünk randevu alınca bunu kaldırmamız gerekecek.
+            var DoktoruBul = _context.Doktorlar.ToList().Where(x => x.Id == doctorId).FirstOrDefault();
+
+
+            var yeniRandevu = new Randevu
+            {
+                KullaniciId = currentUser.Id,
+                KullaniciAdi = currentUser.KullaniciAdi,
+                RandevuSaati = DateTime.Now,
+                DoktorAdi = randevuAlinanDoktor.DoktorAdSoyad,
+                DoktorId = randevuAlinanDoktor.Id
+            };
+
+            _context.Randevular.Add(yeniRandevu);
+
+            _context.SaveChanges();
+
+            return RedirectToAction("Index", "Kullanici");
+        }
+
 
         [HttpGet]
         public IActionResult RandevuAl()

@@ -16,7 +16,7 @@ namespace HastaneRandevuSistemi.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return RedirectToAction("Randevularim", "Kullanici");
         }
 
         public IActionResult Poliklinikler()
@@ -28,7 +28,7 @@ namespace HastaneRandevuSistemi.Controllers
 
             foreach (var poliklinik in poliklinikler)
             {
-                var anaBilimDali = tumAnabilimDallari.FirstOrDefault(abd => abd.Id == poliklinik.AnaBilimDaliId);
+                var anaBilimDali = tumAnabilimDallari.FirstOrDefault(anabilimD => anabilimD.Id == poliklinik.AnaBilimDaliId);
 
                 var poliklinikList2 = new AnaBilimDaliBilgileri
                 {
@@ -41,18 +41,6 @@ namespace HastaneRandevuSistemi.Controllers
 
             return View(poliklinikList1);
         }
-        public String GetEslesenVeri(int anaBilimDaliId)
-        {
-            var eslesenAnaBilimDali = _context.AnaBilimDallari.FirstOrDefault(x => x.Id == anaBilimDaliId);
-            if (eslesenAnaBilimDali != null)
-            {
-                return eslesenAnaBilimDali.AnaBilimDaliAdi;
-            }
-            else
-            {
-                return "Eşleşen veri bulunamadı";
-            }
-        }
 
         public IActionResult Doktorlar()
         {
@@ -63,7 +51,7 @@ namespace HastaneRandevuSistemi.Controllers
 
             foreach (var doktor in tumDoktorlar)
             {
-                var poliklinikler = tumPoliklinikler.FirstOrDefault(abd => abd.Id == doktor.PoliklinikId);
+                var poliklinikler = tumPoliklinikler.FirstOrDefault(anabilimD => anabilimD.Id == doktor.PoliklinikId);
 
                 var doktorVePoliklinik = new PoliklinikBilgileri
                 {
@@ -101,12 +89,12 @@ namespace HastaneRandevuSistemi.Controllers
             return RandevuAlinanDoktor;
         }
         [HttpPost]
-        public IActionResult RandevuOlustur(int doctorId)
+        public IActionResult RandevuOlustur(int doctorId, string selectedCardDate)
         {
             var currentUser = _context.Kullanicilar.FirstOrDefault(u => u.KullaniciAdi == User.Identity.Name);
 
             var randevuAlinanDoktor = DoktorBilgiGetir(doctorId);
-
+            DateTime randevuSaati = DateTime.ParseExact(selectedCardDate, "yyyy-MM-ddTHH:mm:ss", CultureInfo.InvariantCulture);
 
             var DoktoruBul = _context.Doktorlar.ToList().Where(x => x.Id == doctorId).FirstOrDefault();
 
@@ -115,7 +103,7 @@ namespace HastaneRandevuSistemi.Controllers
             {
                 KullaniciId = currentUser.Id,
                 KullaniciAdi = currentUser.KullaniciAdi,
-                RandevuSaati = DateTime.Now,
+                RandevuSaati = randevuSaati,
                 DoktorAdi = randevuAlinanDoktor.DoktorAdSoyad,
                 DoktorId = randevuAlinanDoktor.Id
             };

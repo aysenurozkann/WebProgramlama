@@ -19,15 +19,32 @@
     var sortedPoliklinikler = Model.OrderBy(item => item.AnaBilimDallariAdi).ToList();
 }
 
-@foreach (var item in sortedPoliklinikler)
-{
-    <div class="list-group mb-3">
-        <a href="@Url.Action("PoliklinikBilgileri", "Home", new { anaBilimDaliId = item.poliklinikler.AnaBilimDaliId })" class="list-group-item list-group-item-action flex-column align-items-start">
-            <div class="d-flex w-100 justify-content-between">
-                <h5 class="mb-1">@(item.AnaBilimDallariAdi)</h5>
-            </div>
-
-            <p class="mb-1">@item.poliklinikler.PoliklinikAdi</p>
-        </a>
-    </div>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Poliklinik Adı</h5>
+                </div>
+            </th>
+            <th>
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Bağlı Olduğu Anabilim Dalı</h5>
+                </div>
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                    @Html.DisplayFor(modelItem => @item.poliklinikler.PoliklinikAdi)
+            </td>
+            <td>
+                    @Html.DisplayFor(modelItem => (item.AnaBilimDallariAdi))
+            </td>
+        </tr>
 }
+    </tbody>
+</table>

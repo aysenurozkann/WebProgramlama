@@ -8,6 +8,7 @@
         <tr>
             <th scope="col">Ad Soyad</th>
             <th scope="col">Bağlı Olduğu Poliklinik</th>
+            <th scope="col">Çalışma Saatlerini Yönet</th>
             <!--<th scope="col">Doktor Çalışma Saati Atama</th>-->
             <th scope="col">Sil</th>
         </tr>
@@ -18,9 +19,9 @@
             <tr>
                 <td>@item.doktor.DoktorAdSoyad</td>
                 <td>@item.PolikliniklerinAdi</td>
-                <!--<td>
-                    <a class="btn btn-secondary" asp-area="" asp-controller="Admin" asp-action="DoktorCalismaSaatiOlustur" asp-route-id="@item.doktor.Id">Çalışma Saati Oluştur</a>
-                </td>-->
+                <td>
+                    <a class="btn btn-secondary" asp-area="" asp-controller="Admin" asp-action="DoktorCalismaSaatiAta" asp-route-id="@item.doktor.Id">Yönet</a>
+                </td>
                 <td>
                     <a class="btn btn-danger" asp-area="" asp-controller="Admin" asp-action="DoktorSil" asp-route-id="@item.doktor.Id">Sil</a>
                 </td>

@@ -26,8 +26,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRG9rdG9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/WebProgramlamaProje/WebProgramlama/HastaneRandevuSistemi/HastaneRandevuSistemi/Views/Admin/DoktorCalismaSaatiOlustur.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRG9rdG9yQ2FsaXNtYVNhYXRpT2x1c3R1ci5jc2h0bWw=
+[C:/Users/user/Desktop/WebProgramlamaProje/WebProgramlama/HastaneRandevuSistemi/HastaneRandevuSistemi/Views/Admin/DoktorCalismaSaatiAta.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRG9rdG9yQ2FsaXNtYVNhYXRpQXRhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/user/Desktop/WebProgramlamaProje/WebProgramlama/HastaneRandevuSistemi/HastaneRandevuSistemi/Views/Admin/DoktorEkle.cshtml]
@@ -78,10 +78,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VsbGFuaWNpXERva3Rvcmxhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/WebProgramlamaProje/WebProgramlama/HastaneRandevuSistemi/HastaneRandevuSistemi/Views/Kullanici/DoktorlarvePoliklinik.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VsbGFuaWNpXERva3RvcmxhcnZlUG9saWtsaW5pay5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/user/Desktop/WebProgramlamaProje/WebProgramlama/HastaneRandevuSistemi/HastaneRandevuSistemi/Views/Kullanici/DoktorSec.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VsbGFuaWNpXERva3RvclNlYy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -96,6 +92,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/user/Desktop/WebProgramlamaProje/WebProgramlama/HastaneRandevuSistemi/HastaneRandevuSistemi/Views/Kullanici/RandevuAl.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VsbGFuaWNpXFJhbmRldnVBbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/WebProgramlamaProje/WebProgramlama/HastaneRandevuSistemi/HastaneRandevuSistemi/Views/Kullanici/Randevularim.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VsbGFuaWNpXFJhbmRldnVsYXJpbS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/user/Desktop/WebProgramlamaProje/WebProgramlama/HastaneRandevuSistemi/HastaneRandevuSistemi/Views/Shared/Error.cshtml]

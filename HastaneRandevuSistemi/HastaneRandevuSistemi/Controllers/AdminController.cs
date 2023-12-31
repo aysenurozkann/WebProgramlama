@@ -223,60 +223,54 @@ namespace HastaneRandevuSistemi.Controllers
             return RedirectToAction("Doktor", "Admin");
         }
 
-        //[HttpPost]
-        //public IActionResult CalismaSaatiOlustur(int Id, string CalismaZamani)
-        //{
-        //    if (AdminKontrol())
-        //    {
-        //        var doktor = _context.Doktorlar.Find(Id);
+        [HttpPost]
+        public IActionResult CalismaSaatiAta(int Id, string CalismaSaati)
+        {
 
-        //        if (doktor != null)
-        //        {
-        //            DateTime calisma_saati = DateTime.ParseExact(CalismaZamani, "yyyy-MM-ddTHH:mm", CultureInfo.InvariantCulture);
 
-        //            var yeniCalismaSaati = new CalismaSaatleri
-        //            {
-        //                DoktorId = doktor.Id,
-        //                CalismaSaati = calisma_saati,
-        //                DoktorAdi = doktor.DoktorAdSoyad
-        //            };
+            var doktor = _context.Doktorlar.Find(Id);
 
-        //            _context.CalismaSaatleri.Add(yeniCalismaSaati);
-        //            _context.SaveChanges();
+            if (doktor != null)
+            {
+                DateTime calisma_saati = DateTime.ParseExact(CalismaSaati, "yyyy-MM-ddTHH:mm", CultureInfo.InvariantCulture);
 
-        //            return RedirectToAction("Doktor", "Admin");
-        //        }
-        //        else
-        //        {
-        //            // Doctor nesnesi null ise burada uygun bir sonuç döndürülmeli
+                var yeniCalismaSaati = new CalismaSaatleri
+                {
+                    DoktorId = doktor.Id,
+                    CalismaSaati = calisma_saati,
+                    DoktorAdi = doktor.DoktorAdSoyad
+                };
 
-        //            return RedirectToAction("DoktorCalismaSaatiOlustur", "Admin");
-        //        }
-        //    }
-        //    else
-        //    {
-        //        // Admin kontrolü geçilemediyse burada uygun bir sonuç döndürülmeli
-        //        // Örneğin, hata mesajı veya uygun bir HTTP durum kodu döndürülebilir.
-        //        return RedirectToAction("DoktorCalismaSaatiOlustur", "Admin");
-        //    }
+                _context.CalismaSaatleri.Add(yeniCalismaSaati);
+                _context.SaveChanges();
 
-        //}
-        //[HttpGet]
-        //public IActionResult DoktorCalismaSaatiOlustur(int Id)
-        //{
-        //    if (AdminKontrol())
-        //    {
-        //        var doktor = _context.Doktorlar.Find(Id);
-        //        if (doktor != null)
-        //        {
-        //            return View(doktor);
-        //        }
-        //    }
-        //    // Başarısız durumda başka bir sayfaya yönlendirme yapabilirsiniz.
-        //    return RedirectToAction("DoktorCalismaSaatiOlustur", "Admin");
-        //}
+                return RedirectToAction("Doktor", "Admin");
+            }
+            else
+            {
+                // Doctor nesnesi null ise burada uygun bir sonuç döndürülmeli
 
-        public IActionResult Randevu()
+                return RedirectToAction("DoktorCalismaSaatiAta", "Admin");
+            }
+        }
+
+    
+    [HttpGet]
+    public IActionResult DoktorCalismaSaatiAta(int Id)
+    {
+        if (AdminKontrol())
+        {
+            var doktor = _context.Doktorlar.Find(Id);
+            if (doktor != null)
+            {
+                return View(doktor);
+            }
+        }
+        // Başarısız durumda başka bir sayfaya yönlendirme yapabilirsiniz.
+        return RedirectToAction("DoktorCalismaSaatiOlustur", "Admin");
+    }
+
+    public IActionResult Randevu()
         {
             if (AdminKontrol())
             {

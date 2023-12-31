@@ -54,31 +54,6 @@ namespace HastaneRandevuSistemi.Controllers
             }
         }
 
-        public IActionResult DoktorlarVePoliklinik(int anaBilimDaliId)
-        {
-            var tumDoktorlar = _context.Doktorlar.ToList();
-            var tumPoliklinikler = _context.Poliklinikler.ToList();
-
-            var doktorlarBuAnabilimDalinda = tumDoktorlar.Where(d => tumPoliklinikler.Any(p => p.AnaBilimDaliId == anaBilimDaliId && p.Id == d.PoliklinikId)).ToList();
-
-            var poliklinikList = new List<PoliklinikBilgileri>();
-
-            foreach (var doktor in doktorlarBuAnabilimDalinda)
-            {
-                var poliklinikler = tumPoliklinikler.FirstOrDefault(abd => abd.Id == doktor.PoliklinikId);
-
-                var doktorVePoliklinik = new PoliklinikBilgileri
-                {
-                    doktor = doktor,
-                    PolikliniklerinAdi = poliklinikler?.PoliklinikAdi
-                };
-
-                poliklinikList.Add(doktorVePoliklinik);
-            }
-
-            return View(poliklinikList);
-        }
-
         public IActionResult Doktorlar()
         {
             var tumDoktorlar = _context.Doktorlar.ToList();
@@ -101,16 +76,28 @@ namespace HastaneRandevuSistemi.Controllers
 
             return View(poliklinikModelList);
         }
+        [HttpGet]
         public IActionResult DoktorSec(int Id)
         {
-            var doktorBilgileri = _context.Doktorlar.Where(x => x.Id == Id).ToList();
-            return View();
+            var doktorCalisma = _context.CalismaSaatleri.Where(x => x.DoktorId == Id)
+                .ToList();
+
+            if (doktorCalisma == null || doktorCalisma.Count == 0) // Doktorun uygun randevu saati yoksa
+            {
+                ViewBag.Mesaj = "Doktorun uygun randevusu bulunamadı.";
+            }
+            else
+            {
+                var model = new Tuple<List<CalismaSaatleri>, int>(doktorCalisma, Id);
+                return View(model);
+            }
+            return View(); // Eğer doktorun uygun randevusu yoksa, hemen mesajı yazdırmak için sayfayı döndürüyoruz.
         }
 
+        // idsine göre gelen doktoru bulan döndüren metod 
         public Doktor DoktorBilgiGetir(int Id)
-
         {
-            var RandevuAlinanDoktor = _context.Doktorlar.Where(x=> x.Id == Id).FirstOrDefault();
+            var RandevuAlinanDoktor = _context.Doktorlar.Where(x => x.Id == Id).FirstOrDefault();
             return RandevuAlinanDoktor;
         }
         [HttpPost]
@@ -118,11 +105,9 @@ namespace HastaneRandevuSistemi.Controllers
         {
             var currentUser = _context.Kullanicilar.FirstOrDefault(u => u.KullaniciAdi == User.Identity.Name);
 
-            //randevu alınan doktoru idsine göre bul
             var randevuAlinanDoktor = DoktorBilgiGetir(doctorId);
 
 
-            //Doktorun id si ve çalışma saati veritabanında varsa yani böyle bir doktor varsa bunu değişkene ata çünk randevu alınca bunu kaldırmamız gerekecek.
             var DoktoruBul = _context.Doktorlar.ToList().Where(x => x.Id == doctorId).FirstOrDefault();
 
 
@@ -146,10 +131,10 @@ namespace HastaneRandevuSistemi.Controllers
         [HttpGet]
         public IActionResult RandevuAl()
         {
-            var poliklinikListesi = _context.Poliklinikler.Select(h => new SelectListItem
+            var poliklinikListesi = _context.Poliklinikler.Select(gelendeger => new SelectListItem
             {
-                Value = h.Id.ToString(),
-                Text = h.PoliklinikAdi
+                Value = gelendeger.Id.ToString(),
+                Text = gelendeger.PoliklinikAdi
             }).ToList();
 
             return View(poliklinikListesi);
@@ -180,9 +165,19 @@ namespace HastaneRandevuSistemi.Controllers
             return View(poliklinikListesi);
         }
 
-   
+        public IActionResult RandevuSil(int Id)
+        {
+            var randevusil = _context.Randevular.Find(Id);
+            _context.Remove(randevusil);
+            _context.SaveChanges();
+            return RedirectToAction("Randevularim", "Kullanici");
+        }
 
-
+        public IActionResult Randevularim()
+        {
+            var currentKullanici = _context.Randevular.Where(randevu => randevu.KullaniciAdi == User.Identity.Name).ToList();
+            return View(currentKullanici);
+        }
     }
 
 

@@ -13,6 +13,7 @@ namespace HastaneRandevuSistemi.Models
 
         public string? DoktorAdi { get; set; }
         public int DoktorId { get; set; }
+        [Display(Name = "Randevu Saati")]
         public DateTime RandevuSaati { get; set; }
     }
 }

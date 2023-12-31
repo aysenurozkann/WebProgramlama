@@ -4,18 +4,18 @@
 
 <div> </div>
 
-<form method="post" asp-action="DoktorCalismaSaatiOlustur">
+<form method="post" asp-action="CalismaSaatiAta">
     <input type="hidden" asp-for="Id" />
 
     <div class="form-group">
-        <label for="calismaZamani" class="mb-2">Çalışma Tarihi ve Saati:</label>
+        <label for="CalismaSaati" class="mb-2">Çalışma Tarihi ve Saati:</label>
 
         <div> </div>
 
         <div> </div>
 
         <div> </div>
-        <input type="datetime-local" id="calismaZamani" name="CalismaZamani" class="form-control" min="@DateTime.Now.ToString("yyyy-MM-ddTHH:mm")" />
+        <input type="datetime-local" id="calismaZamani" name="CalismaSaati" class="form-control" min="@DateTime.Now.ToString("yyyy-MM-ddTHH:mm")" />
 
         <div> </div>
 

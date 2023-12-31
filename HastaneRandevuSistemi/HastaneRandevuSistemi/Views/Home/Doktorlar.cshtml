@@ -1,4 +1,4 @@
-﻿﻿@using HastaneRandevuSistemi.Models
+﻿@using HastaneRandevuSistemi.Models
 @model List<PoliklinikBilgileri>
 
 @{
@@ -15,15 +15,32 @@
     <p class="lead">Poliklinikler ve Doktorları</p>
 </header>
 
-@foreach (var item in Model)
-{
-    <div class="list-group mb-3">
-        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
-            <div class="d-flex w-100 justify-content-between">
-                <h5 class="mb-1">@(item.PolikliniklerinAdi)</h5>
-            </div>
+<table class="table">
+    <thead>
+        <tr>
+            <td>
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Poliklinik ve Anabilim Dalı Adı</h5>
+                </div>
+            </td>
+            <td>
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Doktor Adı</h5>
+                </div>
+            </td>
+        </tr>
+    <thead>
+    <tbody>
+@foreach (var item in Model) {
 
-            <p class="mb-1">@item.doktor.DoktorAdSoyad</p>
-        </a>
-    </div>
+        <tr>
+            <td>
+                    @Html.DisplayFor(modelItem => item.PolikliniklerinAdi)
+            </td>
+            <td>
+                    @Html.DisplayFor(modelItem => (item.doktor.DoktorAdSoyad))
+            </td>
+        </tr>
 }
+    </tbody>
+</table>

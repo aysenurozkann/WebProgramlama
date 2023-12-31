@@ -8,22 +8,35 @@
 <header class="text-center py-4">
     <h1>Sakarya Üniversitesi Hastanesi</h1>
     <p class="lead">Anabilim Dalları ve Poliklinikler</p>
+    <a a class="btn btn-lg btn-primary rounded-pill float-end" role="button" asp-action="RandevuAl">Yeni Randevu</a>
 </header>
+</br>
+</br>
+</br>
 
 @{
     // Poliklinikleri Ana Bilim Dalı Adına Göre Alfabetik Sıralama
     var sortedPoliklinikler = Model.OrderBy(item => item.AnaBilimDallariAdi).ToList();
 }
 
-@foreach (var item in sortedPoliklinikler)
-{
-    <div class="list-group mb-3">
-        <a href="@Url.Action("PoliklinikBilgileri", "Home", new { anaBilimDaliId = item.poliklinikler.AnaBilimDaliId })" class="list-group-item list-group-item-action flex-column align-items-start">
-            <div class="d-flex w-100 justify-content-between">
-                <h5 class="mb-1">@(item.AnaBilimDallariAdi)</h5>
-            </div>
 
-            <p class="mb-1">@item.poliklinikler.PoliklinikAdi</p>
-        </a>
-    </div>
+
+<table class="table">
+
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+                <div class="list-group mb-3">
+                    <a class="list-group-item list-group-item-action flex-column align-items-start">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">@(item.AnaBilimDallariAdi)</h5>
+                        </div>
+
+                        <p class="mb-1">@item.poliklinikler.PoliklinikAdi</p>
+                    </a>
+                    
+                </div>        
+        </tr>
 }
+    </tbody>
+</table>

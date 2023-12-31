@@ -6,14 +6,19 @@
 }
 
 <header class="text-center py-4">
-    <h1>Sakarya Hastanesi</h1>
+    <h1>Sakarya Üniversitesi Hastanesi</h1>
     <p class="lead">Poliklinikler ve Doktorları</p>
+    <a a class="btn btn-lg btn-primary rounded-pill float-end" role="button" asp-action="RandevuAl">Yeni Randevu</a>
 </header>
+
+</br>
+</br>
+</br>
 
 @foreach (var item in Model)
 {
     <div class="list-group mb-3">
-        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+        <a class="list-group-item list-group-item-action flex-column align-items-start">
             <div class="d-flex w-100 justify-content-between">
                 <h5 class="mb-1">@(item.PolikliniklerinAdi)</h5>
             </div>

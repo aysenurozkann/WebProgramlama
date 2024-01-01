@@ -1,5 +1,6 @@
 ﻿using HastaneRandevuSistemi.Data;
 using HastaneRandevuSistemi.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using System.ComponentModel.DataAnnotations;
@@ -7,6 +8,7 @@ using System.Globalization;
 
 namespace HastaneRandevuSistemi.Controllers
 {
+    [Authorize]
     public class AdminController : Controller
     {
         private HastaneDbContext _context = new HastaneDbContext();
@@ -14,12 +16,13 @@ namespace HastaneRandevuSistemi.Controllers
         public bool AdminKontrol()
         {
             var admin = true;
-            if(admin)
+            if (admin)
             {
                 return true;
             }
             else { return false; }
         }
+
         public IActionResult Index()
         {
             if (AdminKontrol())
@@ -68,18 +71,18 @@ namespace HastaneRandevuSistemi.Controllers
             if (AdminKontrol())
             {
                 var poliklinikler = _context.Poliklinikler.ToList();
-                var TumAnabilimDallari = _context.AnaBilimDallari.ToList();
+                var AllAnabilimDallari = _context.AnaBilimDallari.ToList();
 
                 var poliklinikList1 = new List<AnaBilimDaliBilgileri>();
 
                 foreach (var poliklinik in poliklinikler)
                 {
-                    var anaBilimDali = TumAnabilimDallari.FirstOrDefault(abd => abd.Id == poliklinik.AnaBilimDaliId);
+                    var anabilimDali = AllAnabilimDallari.FirstOrDefault(abd => abd.Id == poliklinik.AnaBilimDaliId);
 
                     var poliklinikList2 = new AnaBilimDaliBilgileri
                     {
                         poliklinikler = poliklinik,
-                        AnaBilimDallariAdi = anaBilimDali?.AnaBilimDaliAdi
+                        AnaBilimDallariAdi = anabilimDali?.AnaBilimDaliAdi
                     };
 
                     poliklinikList1.Add(poliklinikList2);
@@ -98,13 +101,13 @@ namespace HastaneRandevuSistemi.Controllers
         {
             if (AdminKontrol())
             {
-                var anaBilimDaliListesi = _context.AnaBilimDallari.Select(ekle => new SelectListItem
+                var anabilimDaliListesi = _context.AnaBilimDallari.Select(ekle => new SelectListItem
                 {
                     Value = ekle.Id.ToString(),
                     Text = ekle.AnaBilimDaliAdi
                 }).ToList();
 
-                return View(anaBilimDaliListesi);
+                return View(anabilimDaliListesi);
             }
             else
             {
@@ -113,22 +116,22 @@ namespace HastaneRandevuSistemi.Controllers
         }
 
         [HttpPost]
-        public IActionResult PoliklinikEkle(IFormCollection form)
+        public IActionResult PoliklinikEkle(IFormCollection form) // FormCollection
         {
-            // Form verilerini almak için FormCollection nesnesini kullanımı
+            
 
             string Gelenname = form["PoliklinikAdi"];
-            int EklenecekAnaBilimDaliId = Convert.ToInt32(form["id"]);
+            int AddAnaBilimDaliId = Convert.ToInt32(form["id"]);
 
             using (var dbContext = new HastaneDbContext())
             {
-                Poliklinikler yeniPoliklinik = new Poliklinikler
+                Poliklinikler NewPoliklinik = new Poliklinikler
                 {
                     PoliklinikAdi = Gelenname,
-                    AnaBilimDaliId = EklenecekAnaBilimDaliId
+                    AnaBilimDaliId = AddAnaBilimDaliId
                 };
 
-                dbContext.Poliklinikler.Add(yeniPoliklinik);
+                dbContext.Poliklinikler.Add(NewPoliklinik);
                 dbContext.SaveChanges();
             }
             return RedirectToAction("Poliklinik", "Admin");
@@ -136,8 +139,8 @@ namespace HastaneRandevuSistemi.Controllers
 
         public IActionResult PoliklinikSil(int Id)
         {
-            var poliklinik = _context.Poliklinikler.Find(Id);
-            _context.Poliklinikler.Remove(poliklinik);
+            var Deletepoliklinik = _context.Poliklinikler.Find(Id);
+            _context.Poliklinikler.Remove(Deletepoliklinik);
             _context.SaveChanges();
 
             return RedirectToAction("Poliklinik", "Admin");
@@ -147,14 +150,14 @@ namespace HastaneRandevuSistemi.Controllers
         {
             if (AdminKontrol())
             {
-                var TumDoktorlar = _context.Doktorlar.ToList();
-                var TumPoliklinikler = _context.Poliklinikler.ToList();
+                var AllDoktorlar = _context.Doktorlar.ToList();
+                var AllPoliklinikler = _context.Poliklinikler.ToList();
 
                 var poliklinikList1 = new List<PoliklinikBilgileri>();
 
-                foreach (var doktor in TumDoktorlar)
+                foreach (var doktor in AllDoktorlar)
                 {
-                    var poliklinikler = TumPoliklinikler.FirstOrDefault(dal => dal.Id == doktor.PoliklinikId);
+                    var poliklinikler = AllPoliklinikler.FirstOrDefault(poli => poli.Id == doktor.PoliklinikId);
 
                     var DoktorPoliklinikBilgi = new PoliklinikBilgileri
                     {
@@ -178,13 +181,13 @@ namespace HastaneRandevuSistemi.Controllers
         {
             if (AdminKontrol())
             {
-                var poliklinikListesi = _context.Poliklinikler.Select(poli => new SelectListItem
+                var Listpoliklinik = _context.Poliklinikler.Select(poli => new SelectListItem
                 {
                     Value = poli.Id.ToString(),
                     Text = poli.PoliklinikAdi
                 }).ToList();
 
-                return View(poliklinikListesi);
+                return View(Listpoliklinik);
             }
             else
             {
@@ -193,22 +196,22 @@ namespace HastaneRandevuSistemi.Controllers
         }
 
         [HttpPost]
-        public IActionResult DoktorEkle(IFormCollection form)
+        public IActionResult DoktorEkle(IFormCollection form) // FormCollection
         {
-            // Form verilerini almak için FormCollection nesnesini kullanımı
+            
 
             string Gelenname = form["PoliklinikAdi"];
-            int EklenecekpoliklinikId = Convert.ToInt32(form["id"]);
+            int AddpoliklinikId = Convert.ToInt32(form["id"]);
 
             using (var dbContext = new HastaneDbContext())
             {
-                Doktor yeniDoktor = new Doktor
+                Doktor NewDoktor = new Doktor
                 {
                     DoktorAdSoyad = Gelenname,
-                    PoliklinikId = EklenecekpoliklinikId
+                    PoliklinikId = AddpoliklinikId
                 };
 
-                dbContext.Doktorlar.Add(yeniDoktor);
+                dbContext.Doktorlar.Add(NewDoktor);
                 dbContext.SaveChanges();
             }
             return RedirectToAction("Doktor", "Admin");
@@ -216,8 +219,8 @@ namespace HastaneRandevuSistemi.Controllers
 
         public IActionResult DoktorSil(int Id)
         {
-            var doktor = _context.Doktorlar.Find(Id);
-            _context.Doktorlar.Remove(doktor);
+            var Deletedoktor = _context.Doktorlar.Find(Id);
+            _context.Doktorlar.Remove(Deletedoktor);
             _context.SaveChanges();
 
             return RedirectToAction("Doktor", "Admin");
@@ -232,23 +235,22 @@ namespace HastaneRandevuSistemi.Controllers
 
             if (doktor != null)
             {
-                DateTime calisma_saati = DateTime.ParseExact(CalismaSaati, "yyyy-MM-ddTHH:mm", CultureInfo.InvariantCulture);
+                DateTime DoktorCalismaSaati = DateTime.ParseExact(CalismaSaati, "yyyy-MM-ddTHH:mm", CultureInfo.InvariantCulture);
 
-                var yeniCalismaSaati = new CalismaSaatleri
+                var NewCalismaSaati = new CalismaSaatleri
                 {
                     DoktorId = doktor.Id,
-                    CalismaSaati = calisma_saati,
+                    CalismaSaati = DoktorCalismaSaati,
                     DoktorAdi = doktor.DoktorAdSoyad
                 };
 
-                _context.CalismaSaatleri.Add(yeniCalismaSaati);
+                _context.CalismaSaatleri.Add(NewCalismaSaati);
                 _context.SaveChanges();
 
                 return RedirectToAction("Doktor", "Admin");
             }
             else
             {
-                // Doctor nesnesi null ise burada uygun bir sonuç döndürülmeli
 
                 return RedirectToAction("DoktorCalismaSaatiAta", "Admin");
             }
@@ -266,7 +268,6 @@ namespace HastaneRandevuSistemi.Controllers
                 return View(doktor);
             }
         }
-        // Başarısız durumda başka bir sayfaya yönlendirme yapabilirsiniz.
         return RedirectToAction("DoktorCalismaSaatiOlustur", "Admin");
     }
 
@@ -285,11 +286,11 @@ namespace HastaneRandevuSistemi.Controllers
 
         public IActionResult RandevuSil(int Id)
         {
-            var silinecekRandevu = _context.Randevular.Find(Id);
+            var DeleteRandevu = _context.Randevular.Find(Id);
 
-            if (silinecekRandevu != null)
+            if (DeleteRandevu != null)
             {
-                _context.Remove(silinecekRandevu);
+                _context.Remove(DeleteRandevu);
                 _context.SaveChanges();
                 return RedirectToAction("Randevu", "Admin");
             }

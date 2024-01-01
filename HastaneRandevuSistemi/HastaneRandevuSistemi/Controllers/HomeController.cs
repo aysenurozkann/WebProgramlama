@@ -44,7 +44,7 @@ namespace HastaneRandevuSistemi.Controllers
         [HttpPost]
         public IActionResult KayitOl(Kullanicilar YKullanici)
         {
-            var YeniKullanici = new Kullanicilar
+            var NewKullanici = new Kullanicilar
             {
                 KullaniciAdSoyad = YKullanici.KullaniciAdSoyad,
                 KullaniciAdi = YKullanici.KullaniciAdi,
@@ -52,7 +52,7 @@ namespace HastaneRandevuSistemi.Controllers
                 KullaniciEmail = YKullanici.KullaniciEmail,
             };
 
-            _context.Kullanicilar.Add(YeniKullanici);
+            _context.Kullanicilar.Add(NewKullanici);
             _context.SaveChanges();
             return RedirectToAction("GirisYap");
         }
@@ -109,22 +109,22 @@ namespace HastaneRandevuSistemi.Controllers
 
         public IActionResult Doktorlar()
         {
-            var tumDoktorlar = _context.Doktorlar.ToList();
-            var tumPoliklinikler = _context.Poliklinikler.ToList();
+            var AllDoktorlar = _context.Doktorlar.ToList();
+            var AllPoliklinikler = _context.Poliklinikler.ToList();
 
             var poliklinikModelList = new List<PoliklinikBilgileri>();
 
-            foreach (var doktor in tumDoktorlar)
+            foreach (var doktor in AllDoktorlar)
             {
-                var poliklinikler = tumPoliklinikler.FirstOrDefault(abd => abd.Id == doktor.PoliklinikId);
+                var poliklinikler = AllPoliklinikler.FirstOrDefault(anabilimD => anabilimD.Id == doktor.PoliklinikId);
 
-                var doktorVePoliklinik = new PoliklinikBilgileri
+                var poliklinikBlgi = new PoliklinikBilgileri
                 {
                     doktor = doktor,
                     PolikliniklerinAdi = poliklinikler?.PoliklinikAdi
                 };
 
-                poliklinikModelList.Add(doktorVePoliklinik);
+                poliklinikModelList.Add(poliklinikBlgi);
             }
 
             return View(poliklinikModelList);
@@ -139,7 +139,7 @@ namespace HastaneRandevuSistemi.Controllers
 
             foreach (var poliklinik in poliklinikler)
             {
-                var anaBilimDali = tumAnabilimDallari.FirstOrDefault(abd => abd.Id == poliklinik.AnaBilimDaliId);
+                var anaBilimDali = tumAnabilimDallari.FirstOrDefault(anabilimD => anabilimD.Id == poliklinik.AnaBilimDaliId);
 
                 var poliklinikList2 = new AnaBilimDaliBilgileri
                 {

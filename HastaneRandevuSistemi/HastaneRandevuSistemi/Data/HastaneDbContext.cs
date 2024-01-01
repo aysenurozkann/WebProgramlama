@@ -10,6 +10,7 @@ namespace HastaneRandevuSistemi.Data
             base.OnConfiguring(optionsBuilder);
             optionsBuilder.UseSqlServer("Server=(localdb)\\mssqllocaldb;" +
                 "Database=HastaneDb;Trusted_Connection=True;MultipleActiveResultSets=true;");
+        }
         public DbSet<AnaBilimDali> AnaBilimDallari { get; set; }
         public DbSet<Kullanicilar> Kullanicilar { get; set; } 
         public DbSet<Doktor> Doktorlar { get; set; }

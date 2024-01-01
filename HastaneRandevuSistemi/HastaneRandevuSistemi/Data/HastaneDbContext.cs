@@ -8,7 +8,8 @@ namespace HastaneRandevuSistemi.Data
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=HastaneDb;Trusted_Connection=True;MultipleActiveResultSets=true;"); // parantez içine ; koydum, hata veriyorsa kontrol et
+            optionsBuilder.UseSqlServer("Server=(localdb)\\mssqllocaldb;" +
+                "Database=HastaneDb;Trusted_Connection=True;MultipleActiveResultSets=true;"); // parantez içine ; koydum, hata veriyorsa kontrol et
         }
         public DbSet<AnaBilimDali> AnaBilimDallari { get; set; }
         public DbSet<Kullanicilar> Kullanicilar { get; set; } // burası hata verecek mi kontrol et, aynı isimde
